@@ -1,0 +1,216 @@
+/* 样式表: footer.css */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0; /* 减小高度 */
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px 0 0; 
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 10px; 
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.main{
+    min-width: 100%;
+    height: calc(100vh - 50px); 
+    overflow: hidden;
+}
+
+.header {
+    background-color: #fff; 
+    color: #333; 
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+
+/* .container-full {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+} */
+
+/* .top {
+    width: 50%; 
+    max-width: 600px; 
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+.stiename {
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #333; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+.userinfo {
+    font-size: 14px; 
+    color: #333; 
+    display: flex;
+    align-items: center;
+}
+
+.userinfo::before {
+    content: '👤'; 
+    margin-right: 8px;
+}
+
+.logout-button {
+    margin-left: 15px; 
+    padding: 5px 10px; 
+    background-color: #333; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 4px; 
+    transition: background-color 0.3s ease; 
+}
+
+.logout-button:hover {
+    background-color: #555; 
+} */
+
+/* 样式表: headerfooter.css */
+header {
+    background-color: #fff; 
+    color: #333; 
+    padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
+}
+
+.main {
+    min-width: 100%;
+    padding-top: 60px; /* 确保内容不被header覆盖 */
+    overflow: hidden;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 5px 0; /* 减小高度 */
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    z-index: 999; /* 确保footer在最上层 */
+}
+
+.footer-content {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.footer-links {
+    list-style-type: none;
+    padding: 0;
+    margin: 5px 0 0; 
+    display: flex;
+    justify-content: center;
+}
+
+.footer-links li {
+    margin: 0 10px; 
+}
+
+.footer-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
+
+.container-full {
+    display: flex;
+    justify-content: space-between; /* 调整为两端对齐 */
+    align-items: center;
+    padding: 0 20px; /* 添加内边距 */
+}
+
+.stiename {
+    font-size: 20px; 
+    font-weight: bold; 
+    color: #333; 
+    text-transform: uppercase; 
+    letter-spacing: 1px; 
+}
+
+.userinfo {
+    font-size: 14px; 
+    color: #333; 
+    display: flex;
+    align-items: center;
+}
+
+.userinfo::before {
+    content: '👤'; 
+    margin-right: 8px;
+}
+
+.logout-button {
+    margin-left: 15px; 
+    padding: 5px 10px; 
+    background-color: #333; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 4px; 
+    transition: background-color 0.3s ease; 
+}
+
+.logout-button:hover {
+    background-color: #555; 
+}
+
+.login-button {
+    margin-left: 15px; 
+    padding: 5px 10px; 
+    background-color: #333; 
+    color: #fff; 
+    text-decoration: none;
+    border-radius: 4px; 
+    transition: background-color 0.3s ease; 
+}
+
+.login-button:hover {
+    background-color: #555; 
+}
